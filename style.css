@@ -1,5 +1,5 @@
 *,
-*::bafore,
+*::before,
 *::after {
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ html {
 body {
     font-size: 1.6rem;
     background: #f89ad1;
-    color: #ff5595;
+    color: #ff0095;
 
 }
 
@@ -52,7 +52,7 @@ header {
 
 main {
     display: block;
-    margin: 5rem;
+    margin: 5rem 0;
 
 }
 
@@ -81,41 +81,41 @@ main {
     padding: 4rem 0;
 
 }
-#tranding .tranding-slider{
+
+#tranding .tranding-slider {
 
     height: 52rem;
-padding: 2rem 42rem;
-position: relative;
+    padding: 2rem 42rem;
+    position: relative;
 }
 
-.tranding-slide{
+.tranding-slide {
     width: 37rem;
     height: 42rem;
     position: relative;
 }
 
-.tranding-slide .tranding-slide-img img{
- width: 37rem;
- height: 42rem;
- border-radius: 2rem;
- object-fit: cover;
+.tranding-slide .tranding-slide-img img {
+    width: 37rem;
+    height: 42rem;
+    border-radius: 2rem;
+    object-fit: cover;
 }
-
 .swiper-slide-shadow-left,
-.swiper-slide-shadow-right{
-display: none;
+.swiper-slide-shadow-right {
+    display: none;
 
 }
 
-.networks{
+.networks {
     text-align: center;
     width: 100%;
     height: 3rem;
 
 }
 
-i:hover{
-    color:#fff;
+i:hover {
+    color: #fff;
     transition: 1s;
     cursor: pointer;
 }
